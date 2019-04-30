@@ -7,7 +7,7 @@
         
         init: function () {
             if (!window.C5GMaps.isMapsPresent()) {
-                $('head').append($(decodeURI("%3Cscript src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAX8UHV2m4QoSNDCIziC-PswqFuOGiVHQQ&libraries=places&callback=window.C5GMaps.setupAutocomplete' type='text/javascript'%3E%3C/script%3E")));
+                $('head').append($(decodeURI("%3Cscript src='https://maps.googleapis.com/maps/api/js?key=ADD_KEY_HERE&libraries=places&callback=window.C5GMaps.setupAutocomplete' type='text/javascript'%3E%3C/script%3E")));
             } else {
                 window.C5GMaps.setupAutocomplete();
             }
