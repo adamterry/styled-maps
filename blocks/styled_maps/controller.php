@@ -125,7 +125,7 @@ class Controller extends BlockController
         if(!$this->apikey) {
             $this->requireAsset('javascript', 'jquery');
             $this->addFooterItem(
-               '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX8UHV2m4QoSNDCIziC-PswqFuOGiVHQQ&libraries=places"></script>'
+               '<script src="https://maps.googleapis.com/maps/api/js?key=ADD_KEY_HERE&libraries=places"></script>'
             );
         }
         // otherwise access Google maps via user defined API key
