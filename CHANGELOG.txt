@@ -1,0 +1,30 @@
+ Date (d/m/Y) | Version | Description / Comment
+ ================================================
+ 
+ 3/5/2016 , 0.9.0 , PRB Submission
+ ------------------------------------------------
+ 6/5/2016 , 0.9.1 , Added selectable themes, Map marker sizing control,
+                    Custom code validation (check code is between []),
+                    Split form into tabbed areas, added styling to form hints.
+------------------------------------------------
+10/5/2016 , 0.9.2 , Added popup Info Window functionality, added block header info / help,
+                    added form tool tips, fixed missing t() function in view.php,
+                    replaced unescape()funtion with decodeURI() in auto.js,
+                    updated links to Google maps API to remove an issue where
+                    undeclared libraries in the URL would result in duplicate .js files being included
+                    when the block was added to the page.     
+------------------------------------------------
+11/5/2016 , 0.9.3 , Added option to select default info window state (onclick / onload ),
+                    Added js to hide custom code options unless 'Custom (Advanced)' has been selected from Standard Themes dropdown menu. 
+------------------------------------------------
+24/5/2016 , 1.0.0 , PRB Approved
+------------------------------------------------
+10/6/2016 , 1.1.0 , Added Satellite control feature, Added Street view control feature, Updated scroll wheel option from checkbox to select.
+------------------------------------------------
+27/6/2016 , 1.2.0 , Added Google maps API key input to Styled Maps form. Required by Google as of 22 June 2016.
+------------------------------------------------
+29/7/2016 , 1.2.1 , Fixed bug caused by WYSIWYG editor adding unwanted line breaks to Info window resulting in maps not rendering.
+------------------------------------------------
+30/8/2016 , 1.2.2 , Remapped database schema to support C5 versions from 5.7.1 up to 5.7.4.2 (Skipped in this version).
+------------------------------------------------
+30/8/2016 , 1.2.3 , Update versioning to match current version for all C5 installs 5.7.5 and up.

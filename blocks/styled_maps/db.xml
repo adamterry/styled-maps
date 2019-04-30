@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+  xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+
+  <table name="btStyledMaps">
+    <field name="bID" type="integer">
+      <unsigned/>
+      <key/>
+    </field>
+    <field name="apikey" type="string" size="255"/>
+    <field name="title" type="string" size="255"/>
+    <field name="location" type="string" size="255"/>
+    <field name="latitude" type="float"/>
+    <field name="longitude" type="float"/>
+    <field name="zoom" type="smallint"/>
+    <field name="width" type="string" size="8">
+      <default value="100%"/>
+    </field>
+    <field name="height" type="string" size="8">
+      <default value="400px"/>
+    </field>
+    <field name="scrollwheel" type="text">
+      <default value="yes"/>      
+    </field>
+    <field name="satelliteControl" type="text">
+      <default value="yes"/>      
+    </field>
+    <field name="streetControl" type="text">
+      <default value="yes"/>      
+    </field>
+    <field name="markerwidth" type="string" size="8">
+      <default value="50"/>
+    </field>
+    <field name="markerheight" type="string" size="8">
+      <default value="50"/>
+    </field>
+    <field name="themehex" type="string" size="6"/>
+    <field name="snazzycode" type="text">
+      <default value=""/>      
+    </field>
+    <field name="infotext" type="text">
+      <default value=""/>      
+    </field>
+    <field name="infostate" type="boolean">
+      <unsigned/>
+      <default value="1"/>
+      <notnull/>
+    </field>
+    <field name="fID" type="integer">
+    	<unsigned/>
+    	<default value="0" />
+    </field>
+  </table>
+
+</schema>
