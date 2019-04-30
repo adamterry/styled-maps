@@ -7,6 +7,7 @@ An easy to use Google maps add-on that allows the user to customise their map to
 * Add custom map marker images and set marker size
 * Map width & height settings
 * Ability to enable/disable Scroll wheel, Satellite view and Street view options
+* Configurable zoom settings
 * Info window pop-up with rich text editor and options to display on map load or when map marker is clicked
 
 ## Install
